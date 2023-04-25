@@ -1,0 +1,25 @@
+print("vamos a hacer un huevo hasta que este losto para esto necesitamos un huevo una sarten mantequilla y un plato")
+sarten = input("tienes sarten?")
+huevos = input("tienes huevos?")
+mantequilla = input("tienes mantequilla?")
+plato = input("tienes plato?")
+if sarten == "si" and huevos == "si" and mantequilla == "si" and plato == "si":
+    print("encender la estufa a fuefo medio")
+    print("poner el sarten en la estufa")
+    print("ir por el huevo")
+    print("romper el huevo en el sarten")
+    print("poner la mantequilla en el sarten")
+    print("agregar el huevo al sarten")
+    print("tapar el sarten")
+    print("esperar 3 minutos")
+    esta_listo = input("esta listo?")
+    while esta_listo == "no":
+        print("esperar 1 minuto")
+        esta_listo = input("esta listo?")
+    if esta_listo == "si":
+        print("sacar el sarten de la estufa")
+        print("sacar el huevo del sarten")
+        print("poner el huevo en el plato")
+        print("listo")
+else:
+    print("ir a comprar e intentalo otra vez")
