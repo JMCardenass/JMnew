@@ -1,6 +1,5 @@
 print("Bienvenido a la isla del tesoro")
 decision1 = input("¿Qué camino deseas tomar: izquierda o derecha? ")
-
 if decision1 == "derecha":
     print("Caíste en un foso y moriste")
 elif decision1 == "izquierda":
@@ -14,4 +13,15 @@ elif decision1 == "izquierda":
         while decicion3 == "nadar":
             print("vulve al inicio")
         if decicion3 == "volar":
-            print("Caiste en un atajo")   
+            print("Caiste en un atajo")
+            print("Ganaste")
+    elif decision2 == "amarillo":
+        decicion4 = print("Ahora debes seleccionar un numero entre 1 y el 2")
+        if decicion4 == "1":
+            print("te comio un tiburon y moriste")
+        elif decicion4 == "2":
+            decicion5 = input("Sigues caminando y te encuntras un ttotem recoger o dejar ?")
+            if decicion5 == "recoger":
+                print("Ganaste")
+            elif decicion5 == "dejar":
+                print("Una tribu salvaje te capturo y moriste")
